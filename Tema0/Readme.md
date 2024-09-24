@@ -12,7 +12,7 @@ Ejercicio 1 | si
 
 
 Tema 0 - Servidores Web
--+-
+--
 Ejercicio O | Actividades de presentación 
 ------------|-
 Ejercicio 1 | si
