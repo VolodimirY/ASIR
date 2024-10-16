@@ -10,7 +10,11 @@ http://wiki.apache.org/httpd/DistrosDefaultLayout#Win32_.28Apache_httpd_2.2.29
 https://docs.bluehosting.cl/troubleshooting/servidores/guia-de-solucion-de-problemas-comunes-de-apache.html
 
 Apache utilizará el puerto 81 además del 80
-	
+	Para entrar en configuracion y comprobar el puerto, tenemos que entrer por la ruta /etc/apache2/sites-available
+ 	introducimos cat 000-default.conf y comprobamos tanto el puerto como la ruta
+  ![image](https://github.com/user-attachments/assets/4530dcca-39dc-4a7b-bdd8-700ea69a488f)
+  
+
 Añadir el dominio “marisma.intranet” en el fichero “hosts”
 	
 Cambia la directiva “ServerTokens” para mostrar el nombre del producto.
