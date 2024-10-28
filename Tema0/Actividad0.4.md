@@ -22,5 +22,8 @@ Guarda la información en un erchivo
 ![image](https://github.com/user-attachments/assets/b420ddb6-9837-4142-a6d6-62e507fcf713)
 ![image](https://github.com/user-attachments/assets/8804fe11-f9bd-4cae-8048-dec2940cf282)
 
+curl -O (URL de la imagen)
+Descargar imagen
+![image](https://github.com/user-attachments/assets/5648e7d5-cd4e-45b2-adc5-08368e7c0ec7)
 
 
