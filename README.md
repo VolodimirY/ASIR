@@ -1,17 +1,15 @@
 # SREI
-Este repositorio incluye actividades llevadas a cabo en el módulo **SREI** .
-
-![LogoGH](Images/8562a9a5-a1e4-4722-9ec7-47ebccd5901e.webp)
+Este repositorio incluye actividades llevadas a cabo en el módulo Servicio de Red e Internet.
 
 ## [Tema 0](Tema_0) - Introducción
 
 Actividadades | Descripción
 ---------- | ----------
-[Actividad_0,1](Tema0/Actividad0.1.md)| Ejercicio de introducción con HTTP.
-[Actividad_0,2](Tema0/Actividad0.2.md)| Protocolos UDP y TCP.
-[Actividad_0,3](Tema0/Actividad0.3.md)| Descarga y ejmplos del comando telnet.
-[Actividad_0,4](Tema0/Actividad0.4.md)| Usos al comando cURL.
-[Actividad_0,5](Tema0/Actividad0.5.md)| Crear servidores web mediante python.
+[Actividad_0,1](Tema0/Actividad0.1.md)| HTTP Introduction
+[Actividad_0,2](Tema0/Actividad0.2.md)| UDP and TCP: Comparison of Transport Protocols
+[Actividad_0,3](Tema0/Actividad0.3.md)| Práctica telnet/http
+[Actividad_0,4](Tema0/Actividad0.4.md)| Usando cUrl
+[Actividad_0,5](Tema0/Actividad0.5.md)| Práctica servidor web
 
 ## Tema 1 - Apache
 
