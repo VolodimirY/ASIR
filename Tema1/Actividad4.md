@@ -2,9 +2,12 @@ Previamente se recomienda leer el tema “directory tag” del libro enlazado a 
 http://sites.duke.edu/workblog/files/2014/12/www.dedoimedo.com-apache-web-server-lm.pdf
 
 ## Ejercicios
-Crea un directorio llamado "dir1" y otro llamado "dir2"
-	
-Explica qué diferencia existe entre ambos.:
+1.Crea un directorio llamado "dir1" y otro llamado "dir2"
+
+Para ello abrimos el terminal de ubuntu e introducimos el comando "mkdir dir1 dir2" y creamos directamente los dos directorios que necesitamos.
+![image](https://github.com/user-attachments/assets/287eb739-1af1-4bea-98f1-76affcb5dc41)
+
+2.Explica qué diferencia existe entre ambos.:
 <Directory /var/www/example1>
 Order Deny,Allow
 Deny from All
