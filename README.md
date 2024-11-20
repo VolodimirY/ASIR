@@ -15,5 +15,4 @@ Actividadades | Descripción
 
 Actividadades | Descripción
 ---------- | ----------
-[Actividad_1](Tema_1/Actividad_1.md)| Realizaremos una serie de Scripts en Ubuntu, habiendo ya trabajado la instalación de apache.
-Ejemplo 3 | Ejemplo 4
+[Actividad_1](Tema_1/Actividad_1.md)| Scripts en Ubuntu
