@@ -15,3 +15,4 @@ Actividadades | Descripción
 
 Actividadades | Descripción
 ---------- | ----------
+https://github.com/VolodimirY/SREI/blob/main/Tema0/SREI%20Practicas.pdf | Proyecto
