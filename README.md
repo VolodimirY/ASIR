@@ -15,4 +15,4 @@ Actividadades | Descripción
 
 Actividadades | Descripción
 ---------- | ----------
-[Proyecto](https://github.com/VolodimirY/SREI/blob/main/Tema0/SREI%20Practicas.pdf)| Proyecto
+[Proyecto](https://github.com/VolodimirY/SREI/blob/main/Tema0/SREI%20Practicas.pdf)| Proyecto Apache2
