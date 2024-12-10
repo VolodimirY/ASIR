@@ -15,4 +15,3 @@ Actividadades | Descripción
 
 Actividadades | Descripción
 ---------- | ----------
-[Actividad_1](Tema_1/Actividad_1.md)| Scripts en Ubuntu
