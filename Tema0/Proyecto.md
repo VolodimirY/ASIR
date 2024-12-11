@@ -31,12 +31,15 @@ Creamos el archivo de configuración apache
 
 Introducimos el comando `cd /etc/apache2/sites-available` para posicionarnos en el directorio necesario.
 Introducimos  `sudo nano centro.intranet.conf`
+
 Dentro tenemos que introducir esto, podemos sacarlo del archivo 000-default.conf y pegarlo.
 
 ![image](https://github.com/user-attachments/assets/fe719393-d394-42cc-bbf6-52f74eff760b)
 
 Ahora tenemos que crear el fichero para el otro dominio
+
 Introducimos `sudo nano departamentos.centros.intranet.conf`
+
 Introducimos este texto
 
 ![image](https://github.com/user-attachments/assets/501bb035-d6b0-4553-a759-07f7cb15f419)
@@ -46,7 +49,9 @@ Hacemos el ensite con el comando sudo a2ensite (dominio) y reiniciamos apache co
 ![image](https://github.com/user-attachments/assets/521410e9-062d-4c6e-ba7e-004208c881db)
 
 Creamos los directorios en la ruta var/www
+
 Accedemos al directorio usando el comando `cd /var/www`
+
 Creamos el directorio con  `sudo mkdir centro.intranet` y el segundo `sudo mkdir departamentos.centro.intranet`.
 
 ![image](https://github.com/user-attachments/assets/d4035e25-4bf5-4d9f-909c-c5c323b1577b)
@@ -70,6 +75,7 @@ Entramos en el terminal e instalamos todo lo necesario con estos comandos
 `sudo apt install mysql-server`
 
 Y hacemos un restart con `Sudo systemctl restart apache2`.
+
 Con el comando `sudo ufw app list`, podemos ver si la instalación se ha realizado bien.
 
 ![image](https://github.com/user-attachments/assets/f94ae37b-f976-41bc-9436-d5d74cf28267)
@@ -101,6 +107,7 @@ salimos con `exit`.
 ### Configuración Wordpress
 
 Entramos en http://localhost/wordpress-6.7.1
+
 Pulsamos la carpeta de wordpress y después en el botón azúl de la página que se sitúa abajo(Lets Go).
 
 ![image](https://github.com/user-attachments/assets/857c6137-dff9-49e2-a2e5-b3687cd61ee0)
@@ -112,6 +119,7 @@ Introducimos la información de autentificación, pulsamos submit.
 ![image](https://github.com/user-attachments/assets/1f48f3c6-2f65-4b10-a1dd-85973f95b37c)
 
 Nos envía a la siguiente página.
+
 Rellenamos la informacion.
 
 ![image](https://github.com/user-attachments/assets/888fa954-a040-4d34-97a6-8b117dbc9c59)
@@ -131,7 +139,9 @@ Y hacemos LOG IN.
 Introducimos los siguientes comandos:
 
 `sudo apt install libapache2-mod-wsgi-py3`
+
 `sudo a2enmod wsgi`
+
 `sudo systemctl reload apache2`
 
 ![image](https://github.com/user-attachments/assets/7d03cfe5-c4cd-4eee-822c-08dadcdab9da)
@@ -139,7 +149,9 @@ Introducimos los siguientes comandos:
 # -Crea y despliega una pequeña aplicación python para comprobar que funciona correctamente.
 
 Nos dirigimos al directorio departamentos.centro.intranet con el comando: `cd var/www/departamentos.centro.intranet `
+
 Creamos un directorio app: ` mkdir app`
+
 Creamos un archivo dentro de app: `sudo nano /app/app.wsgi`
 
 ![image](https://github.com/user-attachments/assets/4bbbdb6c-8ae2-4ad2-b1ea-7ceddd126346)
@@ -149,7 +161,8 @@ introducimos código pyton
 ![image](https://github.com/user-attachments/assets/21be98d4-7b01-464a-a608-63748c811b52)
 
 Tenemos que incluir wsgi, por lo cual nos dirigimos a sites-available usando el comando
-cd /etc/apache2/sites-available/
+
+`cd /etc/apache2/sites-available/`
 
 Modificamos el archivo departamentos.centro.intranet de la siguiente forma:
 
@@ -158,7 +171,9 @@ Modificamos el archivo departamentos.centro.intranet de la siguiente forma:
 # -Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación
 
 Creamos un archivo .htpasswd
+
 Tenemos que instalar una herramienta con el comando `sudo apt install apache2-utils`
+
 Agregamos un usuario con el comando sudo` htpasswd -c /etc/apache2/.htpasswd admin`
 
 ![image](https://github.com/user-attachments/assets/43769424-8b38-41ce-9a74-a3418e8fdc41)
