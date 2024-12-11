@@ -8,7 +8,7 @@
 # Vamos a instalar un servidor web interno para un instituto. Se Pide:
 # -Instalación del servidor web apache. Usaremos dos dominios mediante el archivo hosts: centro.intranet y departamentos.centro.intranet. El primero servirá el contenido mediante wordpress y el segundo una aplicación en python
 
-Para instalar Apache2, necesitamos usar el comando 'sudo apt update' para comprobar si hay alguna actualización importante.
+Para instalar Apache2, necesitamos usar el comando `sudo apt update` para comprobar si hay alguna actualización importante.
 Ahora introducimos sudo apt install apache2 y esperamos a que se instale.
 
 ![image](https://github.com/user-attachments/assets/c588e2cb-b36f-4eae-9194-5bd8200d4f0d)
