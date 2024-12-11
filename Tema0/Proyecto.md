@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/69d6a0d6-0deb-42ac-90bc-6b7163f60cbd)
 
-### Servicio de Red e Internet
+## Servicio de Red e Internet
 
 ## Volodimir Yarmash Yarmash
 
