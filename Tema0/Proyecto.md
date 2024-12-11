@@ -27,7 +27,7 @@ introducimos sudo ` nano /etc/hosts ` e introducimos los dominios de esta forma:
 
 ![image](https://github.com/user-attachments/assets/6edd42ab-fcda-4a02-938e-37d70c6fd191)
 
-###Creamos el archivo de configuración apache
+### Creamos el archivo de configuración apache
 
 Introducimos el comando `cd /etc/apache2/sites-available` para posicionarnos en el directorio necesario.
 Introducimos  `sudo nano centro.intranet.conf`
