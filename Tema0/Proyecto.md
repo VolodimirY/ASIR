@@ -2,7 +2,7 @@
 
 ## Servicio de Red e Internet
 
-## Volodimir Yarmash Yarmash
+### Volodimir Yarmash Yarmash
 
 
 Vamos a instalar un servidor web interno para un instituto. Se Pide:
