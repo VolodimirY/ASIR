@@ -17,3 +17,8 @@ Actividadades | Descripción
 ---------- | ----------
 [Proyecto.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema0/SREI%20Practicas.pdf), [Proyecto.md](https://github.com/VolodimirY/SREI/blob/main/Tema0/Proyecto.md)| Proyecto Apache2
 [ActividadAWS.pdf](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.pdf), [ActividadAWS.md](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.md)| Proyecto AWS
+
+## Tema 2 - DNS
+
+Actividadades | Descripción
+[Chaching_Forwarding](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding.pdf) | Creacion de servidor cache con Bind9
