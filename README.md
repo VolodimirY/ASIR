@@ -16,7 +16,7 @@ Actividadades | Descripción
 Actividadades | Descripción
 ---------- | ----------
 [Proyecto.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema0/SREI%20Practicas.pdf), [Proyecto.md](https://github.com/VolodimirY/SREI/blob/main/Tema0/Proyecto.md)| Proyecto Apache2
-[ActividadAWS.pdf](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.pdf), [ActividadAWS.md](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.md)| Proyecto AWS
+[ActividadAWS.pdf](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.pdf), [ActividadAWS.md](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.md)| Proyecto AWS EC2
 
 ## Tema 2 - DNS
 
