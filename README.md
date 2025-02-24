@@ -1,5 +1,5 @@
 # Administración de Sistemas Informaticos en Red
-Este repositorio incluye actividades llevadas a cabo en el módulo Servicio de Red e Internet.
+Este repositorio incluye una parte impostante de las actividades practicas de el Ciclo Formativo de Gredo superior de ASIR
 
 ## Introducción
 
