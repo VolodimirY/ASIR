@@ -1,7 +1,7 @@
-# SREI
+# Administración de Sistemas Informaticos en Red
 Este repositorio incluye actividades llevadas a cabo en el módulo Servicio de Red e Internet.
 
-## [Tema 0](Tema_0) - Introducción
+## Introducción
 
 Actividadades | Descripción
 ---------- | ----------
@@ -11,7 +11,7 @@ Actividadades | Descripción
 [Actividad_0,4](Tema0/Actividad0.4.md)| Usando cUrl
 [Actividad_0,5](Tema0/Actividad0.5.md)| Práctica servidor web
 
-## Tema 1 - Apache
+## Amazon Web Services
 
 Actividadades | Descripción
 ---------- | ----------
@@ -23,8 +23,13 @@ Actividadades | Descripción
 [EFS-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_3dy6vkm)| Configuracion Elastic File System AWS
 [Wordpress-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_4d34og8)|Descarga de Wordpress para AWS
 
-## Tema 2 - DNS
+## DNS
 
 Actividadades | Descripción
 ---------- | ----------
 [Caching_Forwarding.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding.pdf), [Caching_Forwarding.md](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding/SREI%20Practica5_Cache_server_Forwarding.md) | Creacion de servidor cache con Bind9
+
+## Ansible
+---------- | ----------
+[Ansible practica](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf)| Despliegues con Ansible
+[Certificado](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf)| Certificado de Ansible OpenWebinars
