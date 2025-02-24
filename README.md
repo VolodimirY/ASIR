@@ -3,7 +3,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo Servicio de R
 
 ## Introducción
 
-Actividadades | Descripción
+Archivo | Descripción
 ---------- | ----------
 [Actividad_0,1](Tema0/Actividad0.1.md)| HTTP Introduction
 [Actividad_0,2](Tema0/Actividad0.2.md)| UDP and TCP: Comparison of Transport Protocols
@@ -13,7 +13,7 @@ Actividadades | Descripción
 
 ## Amazon Web Services
 
-Actividadades | Descripción
+Archivo | Descripción
 ---------- | ----------
 [Proyecto.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema0/SREI%20Practicas.pdf), [Proyecto.md](https://github.com/VolodimirY/SREI/blob/main/Tema0/Proyecto.md)| Proyecto Apache2
 [ActividadAWS.pdf](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.pdf), [ActividadAWS.md](https://github.com/VolodimirY/SREI/blob/main/ActividadAWS_volodimir.md)| Proyecto AWS EC2
@@ -25,12 +25,13 @@ Actividadades | Descripción
 
 ## DNS
 
-Actividadades | Descripción
+Archivo | Descripción
 ---------- | ----------
 [Caching_Forwarding.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding.pdf), [Caching_Forwarding.md](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding/SREI%20Practica5_Cache_server_Forwarding.md) | Creacion de servidor cache con Bind9
 
 ## Ansible
 
+Archivo | Descripción
 ---------- | ----------
-[Ansible practica](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf)| Despliegues con Ansible
-[Certificado](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf)| Certificado de Ansible OpenWebinars
+[Ansible practica](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | Despliegues con Ansible
+[Certificado](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf) | Certificado de Ansible OpenWebinars
