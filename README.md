@@ -30,6 +30,7 @@ Actividadades | Descripción
 [Caching_Forwarding.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding.pdf), [Caching_Forwarding.md](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding/SREI%20Practica5_Cache_server_Forwarding.md) | Creacion de servidor cache con Bind9
 
 ## Ansible
+
 ---------- | ----------
 [Ansible practica](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf)| Despliegues con Ansible
 [Certificado](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf)| Certificado de Ansible OpenWebinars
