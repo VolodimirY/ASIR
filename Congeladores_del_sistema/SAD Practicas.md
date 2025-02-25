@@ -125,11 +125,11 @@ Ejemplos de congeladores:
 • Windows Steady State
 
 # <a name="_s4qfeav51az6"></a>Qué hay que hacer:
-Vamos a realizar un estudio de una de las aplicaciones anteriores: DeepFreeze. Puedes
+Vamos a realizar un estudio de una de las aplicaciones anteriores: ShadowDefender. Puedes
 
 descargar una versión de prueba desde aquí:
 
-http://www.faronics.com/es/downloads\_es/download-form\_es/?product=DFS.
+https://www.shadowdefender.com/
 
 Se trata de que realices un tutorial en PDF donde aparezcan los siguientes puntos:
 # <a name="_8mxvt6k2bqsr"></a>1. Funciones del programa (¿para qué sirve?).
