@@ -40,3 +40,4 @@ Archivo | Descripción
 ## Seguridad y Alta Disponibilidad
 Archivo | Descripción
 ---------- | ----------
+[ShadowDefender](https://github.com/VolodimirY/ASIR/blob/main/Congeladores_del_sistema/SAD%20Practicas.md) | Congeladores del sistema 
