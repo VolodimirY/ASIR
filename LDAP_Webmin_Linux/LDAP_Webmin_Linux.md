@@ -9,28 +9,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![ref1]
-
 Índice
 
 [**1. Instala Ldap con Webmin en un servidor Linux. Comprueba la correcta instalación de Ldap.	3**](#_lb5fdt28l8bs)**
@@ -45,26 +23,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![ref1]
 
 # <a name="_lb5fdt28l8bs"></a>1. Instala Ldap con Webmin en un servidor Linux. Comprueba la correcta instalación de Ldap.
 Para empezar, tenemos que crear un Alias en el dns.
