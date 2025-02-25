@@ -23,11 +23,12 @@ Archivo | Descripción
 [EFS-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_3dy6vkm)| Configuracion Elastic File System AWS
 [Wordpress-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_4d34og8)|Descarga de Wordpress para AWS
 
-## DNS
+## Linux
 
 Archivo | Descripción
 ---------- | ----------
 [Caching_Forwarding.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding.pdf), [Caching_Forwarding.md](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding/SREI%20Practica5_Cache_server_Forwarding.md) | Creacion de servidor cache con Bind9
+[LDAP](https://github.com/VolodimirY/ASIR/blob/main/LDAP_Webmin_Linux/LDAP_Webmin_Linux.md)| Configuracion LDAP en WEBMIN
 
 ## Ansible
 
