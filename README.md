@@ -36,3 +36,7 @@ Archivo | Descripción
 ---------- | ----------
 [Ansible practica](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | Despliegues con Ansible
 [Certificado](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf) | Certificado de Ansible OpenWebinars
+
+## Seguridad y Alta Disponibilidad
+Archivo | Descripción
+---------- | ----------
