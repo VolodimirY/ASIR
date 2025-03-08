@@ -81,43 +81,43 @@ Vamos a arrancar la imagen de hello-world para finalmente comprobar si todo est�
 
 Comandos importantes:
 
-docker - Te muestra una lista de todos los comandos disponibles.
+`docker - Te muestra una lista de todos los comandos disponibles.`
 
-sudo docker version - te muestra la versión instalada de Docker
+`sudo docker version - te muestra la versión instalada de Docker`
 
-sudo docker info - te muestra la información de docker, como sus rutas y configuración.
+`sudo docker info - te muestra la información de docker, como sus rutas y configuración.`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.003.png)
 
 Por ejemplo, vamos a instalar una imagen de Docker llamada CentOS 7. Con este comando:
 
-sudo docker search centos
+`sudo docker search centos`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.004.png)
 
 # <a name="_j108mzprpnqx"></a>Muestra las imágenes Docker instaladas
 Podemos listar todas nuestras imágenes con:
 
-sudo docker images
+`sudo docker images`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.005.png)
 
 Y finalmente borrar imagen con el comando:
 
-sudo docker rmi centos
+`sudo docker rmi centos`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.006.png)
 
 # <a name="_t26ozvbb8zlp"></a>Muestra los contenedores Docker
 En caso de que queramos ver todos los contenedores que se han ejecutado en nuestro sistema, podemos utilizar la siguiente orden:
 
-sudo docker ps -a
+`sudo docker ps -a`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.007.png)
 # <a name="_7tcqxeldky5z"></a>Edita el fichero Dockerfile
 Para editar el archivo Dockerfile, podemos utilizar cualquier editor de texto, aqui emplearemos nano con el siguiente comando:
 
-sudo nano (ruta)/Dockerfile
+`sudo nano (ruta)/Dockerfile`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.008.png)
 # <a name="_d2mfpyupn198"></a>Construye el contenedor
@@ -125,14 +125,14 @@ sudo nano (ruta)/Dockerfile
 
 Entramos a la carpeta e introducimos este comando:
 
-sudo docker build -t (nombre de imagen) .
+`sudo docker build -t (nombre de imagen) .`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.010.png)
 
 # <a name="_exixaaamyzgf"></a>Ejecútalo
 Vamos a ejecutar la imagen hello world con este comando:
 
-sudo docker run -d -p 127.0.0.1:3000:3000 getting-started
+`sudo docker run -d -p 127.0.0.1:3000:3000 getting-started`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.011.png)
 
@@ -146,13 +146,13 @@ Y nos registramos
 
 Para entrar a docker introducimos el siguiente comando:
 
-sudo docker login -u (usuario)
+`sudo docker login -u (usuario)`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.014.png)
 # <a name="_d6ohpoewxusl"></a>Publícalo
 Con todo ello , ya podemos publicar nuestra imagen en Dockerhub con el siguiente comando
 
-sudo sudo docker push volodimiry/getting-started
+`sudo sudo docker push volodimiry/getting-started`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.015.png)
 
