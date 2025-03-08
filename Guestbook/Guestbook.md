@@ -29,7 +29,7 @@ Volodimir Yarmash Yarmash
 
 
 
-![ref1]
+
 
 Índice
 
@@ -66,9 +66,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-![ref1]
-
 <a name="_stxnsezi734q"></a>Realizar GuestBook - Ejemplo 1 
 
 <https://github.com/josedom24/curso_docker_ies/blob/main/modulo3/guestbook.md>
@@ -96,11 +93,11 @@ $ docker network create red\_guestbook
 # <a name="_dzasw7k6wpcb"></a>Despliegue de los contenedores
 Ejecutamos los contenedores de Redis y Guestbook en la misma red:
 
-docker run -d --name redis --network red\_guestbook -v /opt/redis:/data redis redis-server --appendonly yes
+`docker run -d --name redis --network red\_guestbook -v /opt/redis:/data redis redis-server --appendonly yes`
 
 ![](Aspose.Words.822d4e8b-b844-43fc-8dc6-61e6be598d82.003.png)
 
-docker run -d -p 80:5000 --name guestbook --network red\_guestbook iesgn/guestbook
+`docker run -d -p 80:5000 --name guestbook --network red\_guestbook iesgn/guestbook`
 
 ![](Aspose.Words.822d4e8b-b844-43fc-8dc6-61e6be598d82.004.png)
 # <a name="_nn863rszhqf0"></a>Configuración de la aplicación Guestbook
@@ -108,12 +105,12 @@ En la imagen iesgn/guestbook, se ha definido una variable de entorno llamada RED
 
 Si creamos un contenedor Redis con otro nombre, por ejemplo:
 
-docker run -d --name contenedor\_redis --network red\_guestbook -v /opt/redis:/data redis redis-server --appendonly yes
+`docker run -d --name contenedor\_redis --network red\_guestbook -v /opt/redis:/data redis redis-server --appendonly yes`
 
 Entonces, debemos configurar la aplicación guestbook para que use ese nuevo nombre. Para ello, pasamos la variable de entorno REDIS\_SERVER al crear el contenedor:
 
-docker run -d -p 80:5000 --name guestbook -e REDIS\_SERVER=contenedor\_redis --network red\_guestbook iesgn/guestbook
-
+`docker run -d -p 80:5000 --name guestbook -e REDIS\_SERVER=contenedor\_redis --network red\_guestbook iesgn/guestbook
+`
 
 
 [ref1]: Aspose.Words.822d4e8b-b844-43fc-8dc6-61e6be598d82.001.png
