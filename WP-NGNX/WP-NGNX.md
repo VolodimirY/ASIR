@@ -26,11 +26,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-
-![ref1]
-
 Índice
 
 [**Tomcat + Nginx - Ejemplo 3	3**](#_bagk0tcf59tj)**
@@ -58,16 +53,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-
-
-
-
-
-
-
-![ref1]
 # <a name="_bagk0tcf59tj"></a>Tomcat + Nginx - Ejemplo 3
 En este ejemplo vamos a desplegar una aplicación simple utilizando Tomcat como servidor de aplicaciones y Nginx como proxy inverso. Usaremos redes bridge personalizadas y bind mounts para enlazar los archivos de configuración entre el host y los contenedores.
 
@@ -75,7 +60,7 @@ En este ejemplo vamos a desplegar una aplicación simple utilizando Tomcat como 
 
 Primero, creamos una red bridge personalizada para conectar los contenedores:
 
-docker network create red\_tomcat
+`docker network create red\_tomcat`
 
 ![](Aspose.Words.f0796188-1f62-4e80-ba67-8b51e92d08a1.002.png)
 
@@ -84,13 +69,13 @@ A continuación, vamos a ejecutar el contenedor de Tomcat con un archivo .war qu
 
 Suponiendo que tenemos el archivo .war en el directorio adecuado (~/tomcat/sample.war), creamos el contenedor:
 
-docker run -d --name aplicacionjava \
+`docker run -d --name aplicacionjava \`
 
-`                `--network red\_tomcat \
+``                `--network red\_tomcat \`
 
-`                `-v /home/vagrant/tomcat/sample.war:/usr/local/tomcat/webapps/sample.war:ro \
+``                `-v /home/vagrant/tomcat/sample.war:/usr/local/tomcat/webapps/sample.war:ro \`
 
-`                `tomcat:9.0
+``                `tomcat:9.0`
 
 ![](Aspose.Words.f0796188-1f62-4e80-ba67-8b51e92d08a1.003.png)
 
