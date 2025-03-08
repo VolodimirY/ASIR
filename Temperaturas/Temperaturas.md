@@ -18,19 +18,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-![ref1]
-
 Índice
 
 [**Ejemplo 2: Despliegue de la aplicación Temperaturas	3**](#_ace4f1kpv0o6)**
@@ -57,17 +44,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-
-
-
-
-
-
-
-
-![ref1]
 # <a name="_ace4f1kpv0o6"></a>Ejemplo 2: Despliegue de la aplicación Temperaturas
 Vamos a hacer un despliegue completo de una aplicación llamada Temperaturas. Esta aplicación nos permite consultar la temperatura mínima y máxima de todos los municipios de España. Esta aplicación está formada por dos microservicios:
 
@@ -79,17 +55,17 @@ El microservicio frontend se conecta a backend usando el nombre temperaturas-bac
 
 Vamos a crear una red para conectar los dos contenedores:
 
-$ docker network create red\_temperaturas
+`$ docker network create red\_temperaturas`
 
 ![](Aspose.Words.cf22fb95-c5be-4813-bf42-e194d9e5390d.002.png)
 
 Para ejecutar los contenedores:
 
-$ docker run -d --name temperaturas-backend --network red\_temperaturas iesgn/temperaturas\_backend 
+`$ docker run -d --name temperaturas-backend --network red\_temperaturas iesgn/temperaturas\_backend `
 
 ![](Aspose.Words.cf22fb95-c5be-4813-bf42-e194d9e5390d.003.png)
 
-docker run -d -p 80:3000 --name temperaturas-frontend --network red\_temperaturas iesgn/temperaturas\_frontend
+`docker run -d -p 80:3000 --name temperaturas-frontend --network red\_temperaturas iesgn/temperaturas\_frontend`
 
 ![](Aspose.Words.cf22fb95-c5be-4813-bf42-e194d9e5390d.004.png)
 
@@ -107,11 +83,11 @@ Como hemos indicado anteriormente, en la creación de la imagen iesgn/temperatur
 
 Si creamos un contenedor backend con otro nombre, por ejemplo:
 
-$ docker run -d --name temperaturas-api --network red\_temperaturas iesgn/temperaturas\_backend
+`$ docker run -d --name temperaturas-api --network red\_temperaturas iesgn/temperaturas\_backend`
 
 Tendremos que configurar la aplicación frontend parea que acceda al backend usando como nombre temperaturas-api, por lo tanto en la creación tendremos que definir la variable de entorno TEMP\_SERVER, para ello ejecutamos:
 
-$ docker run -d -p 80:3000 --name temperaturas-frontend -e TEMP\_SERVER=temperaturas-api:5000 --network red\_temperaturas iesgn/temperaturas\_frontend
+`$ docker run -d -p 80:3000 --name temperaturas-frontend -e TEMP\_SERVER=temperaturas-api:5000 --network red\_temperaturas iesgn/temperaturas\_frontend`
 
 
 [ref1]: Aspose.Words.cf22fb95-c5be-4813-bf42-e194d9e5390d.001.png
