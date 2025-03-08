@@ -27,10 +27,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-![ref1]
-
 Índice
 
 [**Lee los siguientes artículos	3**](#_b9hn2cw6aavl)**
@@ -71,13 +67,6 @@ Volodimir Yarmash Yarmash
 
 
 
-
-
-
-
-
-![ref1]
-
 # <a name="_b9hn2cw6aavl"></a>Lee los siguientes artículos
 <https://docs.docker.com/get-started/>
 
@@ -86,7 +75,7 @@ Volodimir Yarmash Yarmash
 # <a name="_2znu2rbiammz"></a>Ejecuta la imagen "hello-world"
 Vamos a arrancar la imagen de hello-world para finalmente comprobar si todo está en orden.
 
-sudo docker run hello-world
+`sudo docker run hello-world`
 
 ![](Aspose.Words.4fe7be42-cd15-4354-84d9-a9af89f3e981.002.png)
 
