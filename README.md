@@ -47,3 +47,4 @@ Archivo | Descripción
 ---------- | ----------
 [DockerInstall](https://github.com/VolodimirY/ASIR/blob/main/Dockerstart/Docker_download.md) | Instalacion de Docker en Ubuntu
 [DockerFirstCont](https://github.com/VolodimirY/ASIR/blob/main/Docker2/Docker2.md) | Primer contenedor Docker HUB
+[DockerStopDelete](https://github.com/VolodimirY/ASIR/blob/main/DockerCrearBorrar/DockerCrearBorrar.md) | Primera detencion y eliminacio de contenedor Docker
