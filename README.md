@@ -27,7 +27,7 @@ Archivo | Descripción
 
 Archivo | Descripción
 ---------- | ----------
-[Caching_Forwarding.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding.pdf), [Caching_Forwarding.md](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding/SREI%20Practica5_Cache_server_Forwarding.md) | Creacion de servidor cache con Bind9
+[Caching_DNS-Forwarding.pdf](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding.pdf), [Caching_DNS-Forwarding.md](https://github.com/VolodimirY/SREI/blob/main/Tema2/SREI%20Practica5_Cache_server_Forwarding/SREI%20Practica5_Cache_server_Forwarding.md) | Creacion de servidor DNS y cache con Bind9
 [LDAP](https://github.com/VolodimirY/ASIR/blob/main/LDAP_Webmin_Linux/LDAP_Webmin_Linux.md)| Configuracion LDAP en WEBMIN
 
 ## Ansible
