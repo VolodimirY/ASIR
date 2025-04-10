@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Miembros</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .table-hover tbody tr:hover {
+            cursor: pointer;
+            background-color: #f1f1f1;
+        }
+        .header {
+            background: linear-gradient(90deg, #007bff, #6610f2);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #343a40;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function filterTable() {
+            let input = document.getElementById("searchInput").value.toLowerCase();
+            let rows = document.querySelectorAll("#membersTable tbody tr");
+            rows.forEach(row => {
+                let text = row.innerText.toLowerCase();
+                row.style.display = text.includes(input) ? "" : "none";
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="header">
+            <h1> Lista de Miembros</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" class="form-control w-50" onkeyup="filterTable()" placeholder="🔎 Buscar miembro...">
+        </div>
+        <div class="table-responsive">
+            <table id="membersTable" class="table table-hover table-bordered text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre Completo</th>
+                        <th>Teléfono</th>
+                        <th>Fecha de Nacimiento</th>
+                        <th>Categoría</th>
+                        <th>Provincia</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for x in mymembers %}
+                    <tr>
+                        <td>{{ x.member_id }}</td>
+                        <td>{{ x.full_name }}</td>
+                        <td>{{ x.phone }}</td>
+                        <td>{{ x.birth_date }}</td>
+                        <td>{{ x.category }}</td>
+                        <td>{{ x.province_id }}</td>
+                        <td>
+                            <a href="{% url 'member_edit' x.member_id %}" class="btn btn-warning btn-sm">✏️ Editar</a>
+                            <a href="{% url 'member_delete' x.member_id %}" class="btn btn-danger btn-sm"
+                               onclick="return confirm('¿Estás seguro de que quieres eliminar a {{ x.full_name }}?');">
+                               🗑️ Borrar
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                <div class="text-center mb-3">
+                    <a href="{% url 'member_new' %}" class="btn btn-success">➕ Añadir Miembro</a>
+                </div>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
