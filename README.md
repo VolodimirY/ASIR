@@ -47,8 +47,4 @@ Archivo | Descripción
 ---------- | ----------
 [DockerInstall](https://github.com/VolodimirY/ASIR/blob/main/Dockerstart/Docker_download.md) | Instalacion de Docker en Ubuntu
 [DockerFirstCont](https://github.com/VolodimirY/ASIR/blob/main/Docker2/Docker2.md) | Primer contenedor Docker HUB
-[DockerStopDelete](https://github.com/VolodimirY/ASIR/blob/main/DockerCrearBorrar/DockerCrearBorrar.md) | Primera detencion y eliminacio de contenedor Docker
-[Guesstbook](https://github.com/VolodimirY/ASIR/blob/main/Guestbook/Guestbook.md#_5w3apdiw2km2) | Ejercicio Guesstbook con Docker
-[Temperaturas](https://github.com/VolodimirY/ASIR/blob/main/Temperaturas/Temperaturas.md) | Ejercicio Temperaturas con Docker
-[Img-py](https://github.com/VolodimirY/ASIR/blob/main/IMG-py/IMG-py.md) | Ejercicio imagen pyton Docker 
-[wp-nginx](https://github.com/VolodimirY/ASIR/blob/main/WP-NGNX/WP-NGNX.md) | Ejercicio Worpress-Nginx Docker 
+[DockerStopDelete](https://github.com/VolodimirY/ASIR/blob/main/DockerCrearBorrar/DockerCrearBorrar.md) | Primera detencion y eliminacio de contenedor Docker 
