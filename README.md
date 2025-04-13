@@ -37,6 +37,13 @@ Archivo | Descripción
 [Ansible practica](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | Despliegues con Ansible
 [Certificado](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf) | Certificado de Ansible OpenWebinars
 
+## Terraform
+
+Archivo | Descripción
+---------- | ----------
+[Terraaform inicio](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | Primer contacto con Terraform
+[Certificado](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf) | Certificado de Terraform OpenWebinars(soon)
+
 ## Seguridad y Alta Disponibilidad
 Archivo | Descripción
 ---------- | ----------
