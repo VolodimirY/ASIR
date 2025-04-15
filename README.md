@@ -61,3 +61,9 @@ Archivo | Descripción
 ---------- | ----------
 [DjangoSQLOTE](https://github.com/VolodimirY/ASIR/tree/main/volodimir_project) | Base de datos gráfica con Django
 
+## Machine Learning
+
+Archivo | Descripción
+---------- | ----------
+[Certificado](https://github.com/VolodimirY/SREI/blob/main/Tema0/Proyecto.md)| Certificado del curso Machine Learning (Kaggle)
+
