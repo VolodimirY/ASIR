@@ -65,5 +65,5 @@ Archivo | Descripción
 
 Archivo | Descripción
 ---------- | ----------
-[Certificado](https://github.com/VolodimirY/SREI/blob/main/Tema0/Proyecto.md)| Certificado del curso Machine Learning (Kaggle)
+[Certificado](https://github.com/VolodimirY/ASIR/blob/main/Volodimir%20Yarmash%20Yarmash%20-%20Intro%20to%20Machine%20Learning.png)| Certificado del curso Machine Learning (Kaggle)
 
