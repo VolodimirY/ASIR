@@ -42,7 +42,7 @@ File | Description
 File | Description
 ----- | -----------
 [Getting Started with Terraform](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | First contact with Terraform  
-[Certificate](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf) | Terraform OpenWebinars Certificate *(coming soon)*  
+[Certificate](https://github.com/VolodimirY/ASIR/blob/main/certificado_curso_de_terraform_online.pdf) | Terraform OpenWebinars Certificate 
 
 ## Security & High Availability
 
