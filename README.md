@@ -62,7 +62,7 @@ File | Description
 
 File | Description
 ----- | -----------
-[DjangoSQLOTE](https://github.com/VolodimirY/ASIR/tree/main/volodimir_project) | Graphical database project using Django  
+[DjangoSQLITE](https://github.com/VolodimirY/ASIR/tree/main/volodimir_project) | Graphical database project using Django  
 
 ## Machine Learning
 
