@@ -11,7 +11,7 @@ File | Description
 [Actividad_0.4](Tema0/Actividad0.4.md) | Using cURL  
 [Actividad_0.5](Tema0/Actividad0.5.md) | Web Server Practice  
 
-## Amazon Web Services
+## Cloud
 
 File | Description
 ----- | -----------
@@ -22,6 +22,8 @@ File | Description
 [RDS-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_tyjcwt) | RDS Database Setup on AWS  
 [EFS-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_3dy6vkm) | AWS Elastic File System Configuration  
 [WordPress-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_4d34og8) | Installing WordPress on EC2  
+[Getting Started with Terraform](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | First contact with Terraform  
+[Terraform Certificate](https://github.com/VolodimirY/ASIR/blob/main/certificado_curso_de_terraform_online.pdf) | Terraform OpenWebinars Certificate 
 
 ## Linux
 
@@ -37,12 +39,6 @@ File | Description
 [Ansible Practice](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | Automated Deployments with Ansible  
 [Certificate](https://github.com/VolodimirY/ASIR/blob/main/certificado_onboarding_de_becas_openwebinars.pdf) | Ansible OpenWebinars Course Certificate  
 
-## Terraform
-
-File | Description
------ | -----------
-[Getting Started with Terraform](https://github.com/VolodimirY/ASIR/blob/main/Ansible%20practica.pdf) | First contact with Terraform  
-[Certificate](https://github.com/VolodimirY/ASIR/blob/main/certificado_curso_de_terraform_online.pdf) | Terraform OpenWebinars Certificate 
 
 ## Security & High Availability
 
