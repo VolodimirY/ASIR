@@ -50,19 +50,19 @@ This project provisions a scalable, load-balanced web infrastructure on **Amazon
 1. **Clone the repository**:
 
    ```bash
-   git clone 
+   git clone https://github.com/VolodimirY/ASIR/tree/main/Terraform%20Project:%20Scalable%20Web%20Infrastructure%20on%20AWS
    cd terraform-aws-scalable-web
    ```
   
 2. **Initialize Terraform**:
    
-  ```bash
-  terraform init
-  ```
+    ```bash
+    terraform init
+    ```
 3. **Plan and Apply**:
 
-  ```bash
-  terraform plan
-  terraform apply
-  ```
+    ```bash
+    terraform plan
+    terraform apply
+    ```
    
