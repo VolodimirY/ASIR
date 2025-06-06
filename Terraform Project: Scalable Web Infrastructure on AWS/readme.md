@@ -40,7 +40,7 @@ This project provisions a scalable, load-balanced web infrastructure on **Amazon
 
 ## 🔧 Requirements
 
-- Terraform ≥ 1.0
+- Terraform ≥ 1.13
 - AWS CLI configured with appropriate permissions
 - An AWS account
 - Add your AMAZON credentials on /.aws/credentials file
