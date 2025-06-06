@@ -23,7 +23,7 @@ File | Description
 [EFS-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_3dy6vkm) | AWS Elastic File System Configuration  
 [WordPress-AWS](https://github.com/VolodimirY/SREI/blob/main/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2/S5.Instalaci%C3%B3n%20Wordpress%20en%20Instancia%20EC2.md#_4d34og8) | Installing WordPress on EC2  
 [Terraform Certificate](https://github.com/VolodimirY/ASIR/blob/main/certificado_curso_de_terraform_online.pdf) | Terraform OpenWebinars Certificate 
-[Terraform + AutoScaling + Load balancer + EC2](https://github.com/VolodimirY/ASIR/tree/main/Terraform%20Project%3A%20Scalable%20Web%20Infrastructure%20on%20AWS) | Run web applications in a highly available, balanced, and auto-scalable environment. 
+[Terraform + AutoScaling + Load balancer + EC2](https://github.com/VolodimirY/ASIR/tree/main/Terraform%20Project%3A%20Scalable%20Web%20Infrastructure%20on%20AWS) | (NEW) Run web applications in a highly available, balanced, and auto-scalable environment. 
 ## Linux
 
 File | Description
